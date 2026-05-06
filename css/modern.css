@@ -42,7 +42,7 @@ html {
 body {
   font-family: var(--font-main);
   background-color: var(--bg-color);
-  background-image: url('../images/main_bg.png?v=2');
+  background-image: url('../images/main_bg.png?v=3');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
