@@ -360,7 +360,7 @@ ul {
   color: var(--text-secondary);
   font-size: 1.1rem;
   max-width: 600px;
-  margin: 0 auto 3rem;
+  margin: 0 0 3rem 0; /* Left align on desktop */
   line-height: 1.6;
 }
 
@@ -756,6 +756,11 @@ footer {
     flex-direction: column;
     text-align: center;
     gap: 2rem;
+  }
+  
+  .description {
+    margin: 0 auto 2rem;
+    padding: 0 10px;
   }
   
   .separator {
