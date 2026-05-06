@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Typing Effect
   const typingElement = document.getElementById('typing-text');
   if (typingElement) {
-    const roles = ['Electrical Engineer', 'PCB Designer', 'Product Developer', 'Nutritionist'];
+    const roles = ['Systems Engineer', 'PCB Designer', 'Hardware Developer'];
     let roleIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
@@ -96,10 +96,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // Navbar background on scroll
     const navbar = document.querySelector('.navbar');
     if (scrollY > 50) {
-      navbar.style.background = 'rgba(15, 23, 42, 0.95)';
+      navbar.style.backdropFilter = 'blur(12px)';
+      navbar.style.webkitBackdropFilter = 'blur(12px)';
       navbar.style.boxShadow = '0 4px 20px rgba(0,0,0,0.5)';
     } else {
-      navbar.style.background = 'rgba(15, 23, 42, 0.8)';
+      navbar.style.backdropFilter = 'none';
+      navbar.style.webkitBackdropFilter = 'none';
       navbar.style.boxShadow = 'none';
     }
   });

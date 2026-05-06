@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/modern.css">
+  <link rel="stylesheet" href="css/modern.css?v=2">
 </head>
 <body>
 
@@ -40,20 +40,47 @@
 
   <!-- Hero Section -->
   <section id="home" class="hero">
-    <div class="container hero-content">
-      <div class="hero-text">
-        <p class="sub-title">Hello! I'm Arpit Kumar Gupta</p>
-        <h1>An Engineer &amp;<br><span id="typing-text" style="color: var(--primary-color);"></span></h1>
-        <p>Designing the future of hardware, solving circuit problems, and uncovering hidden semiconductor stories.</p>
-        <div class="hero-actions">
-          <a href="https://www.linkedin.com/in/arpit-kumar-gupta-a16303230" target="_blank" class="btn btn-primary">LinkedIn</a>
-          <a href="#projects" class="btn btn-outline">My Projects</a>
+    <div class="container hero-content-centered">
+      
+      <div class="profile-wrapper">
+        <div class="profile-glow"></div>
+        <div class="profile-card-image">
+          <img src="images/profile.png" alt="Arpit Kumar Gupta">
         </div>
       </div>
-      <div class="hero-image">
-        <!-- Reusing the existing image if possible -->
-        <img src="images/bg_1.png" alt="Arpit Bansal">
+
+      <div class="hero-text-centered">
+        <p class="greeting">Hello! I'm</p>
+        <h1 class="name-title">Arpit Kumar Gupta</h1>
+        
+        <div class="separator">
+          <span class="line"></span>
+          <span class="dot"></span>
+          <span class="line"></span>
+        </div>
+
+        <h2 class="role-title"><span id="typing-text" class="typing-highlight"></span></h2>
+        
+        <p class="description">Focused on circuit design, embedded systems, and building strong electrical engineering fundamentals for real-world applications.</p>
+        
+        <div class="hero-actions-vertical">
+          <a href="#projects" class="btn btn-blue-glow">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2l.5-.5a5.4 5.4 0 0 0 1-4.64L14.46 9a1.5 1.5 0 0 0-2.12-2.12l-5.36 5.36a5.4 5.4 0 0 0-4.64 1L1.88 13.8a2.12 2.12 0 0 0 3 3l1.12-1.12c.3-.3.5-.8.5-1.18v-.5M12 12c.5-1.5 2-4 4-6a2 2 0 0 1 2.83 2.83c-2 2-4.5 3.5-6 4M15.5 8.5l-1-1M18.5 5.5l-1-1"/></svg>
+            <span>My Projects</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/arpit-kumar-gupta-a16303230" target="_blank" class="btn btn-dark-outline">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            <span>LinkedIn Profile</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
       </div>
+      
+      <div class="scroll-indicator">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+      </div>
+
     </div>
   </section>
 
@@ -74,9 +101,9 @@
           </ul>
         </div>
         <div class="about-text">
-          <h3>Electrical Engineer</h3>
-          <p>A detail-oriented professional with experience in METER DESIGN in the ELECTRICAL INDUSTRY. Possesses in-depth knowledge of multiple technology stacks which contributes to the efficient development of products.</p>
-          <p>I have filed a patent for a device named "ATOMLINK24", a solar power based development board for IoT and Embedded system applications. Additionally, I have developed the architecture of Three Phase and Single Phase Smart Meters using Ki-CAD and cleared the MPPTCL JE and PGCIL FIELD ENGINEER exams.</p>
+          <h3>Electrical & Embedded Systems Engineer</h3>
+          <p>I am a detail-oriented Electrical Engineer with specialized experience in smart meter design within the electrical industry. My strong foundation across multiple technology stacks enables me to contribute effectively to the research, design, and efficient development of innovative products.</p>
+          <p>I have filed a patent for "ATOMLINK24" — a solar-powered development board engineered specifically for IoT and embedded system applications. Additionally, I have designed the hardware architecture for both three-phase and single-phase smart meters using KiCad, and I have successfully cleared the competitive MPPTCL JE and PGCIL Field Engineer examinations.</p>
           
           <div class="skills">
             <div class="skill-item">
